@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid green;
+}
+
+.container {
+    max-width: 600px;
+    border: 2px solid blue;
+    margin: 1em auto;
+}
+
+.container div{
+    border: 2px solid black;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}

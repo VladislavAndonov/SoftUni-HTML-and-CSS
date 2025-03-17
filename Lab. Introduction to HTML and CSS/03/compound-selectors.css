@@ -1,0 +1,16 @@
+p.highlight {
+    color: dodgerblue;
+    font-size: 18px;
+}
+div#special {
+    background-color: orange;
+    padding: 10px;
+}
+a[href^="http"] {
+    color: darkorange;
+    display: block;
+}
+p.fancy {
+    background-color: lightpink;
+    text-decoration: overline;
+}

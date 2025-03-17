@@ -1,0 +1,10 @@
+body {
+    margin-left: 2em;
+}
+span {
+    font-weight: bold;
+}
+time {
+    color: grey;
+    font-style: italic;
+}

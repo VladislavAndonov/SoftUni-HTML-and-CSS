@@ -1,0 +1,10 @@
+img {
+    height: 300px;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline-block;
+}
