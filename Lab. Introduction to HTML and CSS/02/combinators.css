@@ -1,0 +1,15 @@
+div p {
+    color: dodgerblue
+}
+span {
+    color: tomato;
+}
+ul > li {
+    list-style-type: circle;
+}
+p + p {
+    background-color: #ccc;
+}
+p ~ span {
+    font-weight: bold;
+}

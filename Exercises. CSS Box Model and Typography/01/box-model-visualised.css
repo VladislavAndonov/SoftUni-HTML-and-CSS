@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.box-model{
+    max-width: 600px;
+    margin: 4em auto;
+}
+
+.box-model div{
+    border: 1px dashed;
+    padding: 0.5em 2em 2em 2em;
+}
+
+.box-model div::before {
+    display: block;
+    padding-bottom: 0.5em;
+    margin-left: -1em;
+}
+
+.margin {
+    background-color: coral;
+}
+
+.margin::before{
+    content: "margin";
+}
+
+.border {
+    background-color:bisque;
+}
+
+.border::before{
+    content: "border";
+}
+
+.padding {
+    background-color: lightgreen;
+}
+
+.padding::before {
+    content: "padding";
+}
+
+.box-model .content{
+    text-align: center;
+    background-color: lightblue;
+    padding: 1em;
+}
